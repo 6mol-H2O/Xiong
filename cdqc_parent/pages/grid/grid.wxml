@@ -1,0 +1,5 @@
+<!--pages/grid/grid.wxml-->
+<view class = 'body'>
+
+<view wx:for="{{class}}" wx:for-index='id'  class = "{{class[id]}}" bindtap="tap"  data-id = '{{id}}'>{{content[id]}}</view>
+</view>

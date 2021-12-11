@@ -38,7 +38,6 @@ Page({
         this.data.angle -= 180 / (2000 / this.data.splice)
       else
         this.data.angle += 180 / (2000 / this.data.splice)
-        console.log(this.data.angle)
     }
     if(this.data.angle > 0)
       this.data.up = true
@@ -79,7 +78,7 @@ Page({
           this.setData({
             tap : 'tap',
           })
-          if(this.data.trail[this.data.index - 1][1].toString() != 150)
+          if(this.data.trail[this.data.index - 1][1].toString() < 100)
           {
             wx.showToast({
             title: '恭喜通关',
@@ -171,11 +170,11 @@ Page({
   onShareAppMessage: function () {
 
   },
-  toulan: function( angle,begin_x = 30 , begin_y = 70 , end_x = 95 , end_y = 100 , target_x = 80 , target_y = 15,  begin_speed = 20 )
+  toulan: function( angle,begin_x = 30 , begin_y = 70 , end_x = 95 , end_y = 100 , target_x = 65 , target_y = 32,  begin_speed = 20 )
 {
     let now_x = begin_x , now_y = begin_y , speed_x = begin_speed * Math.cos(angle * Math.PI / 180) , speed_y = -begin_speed * Math.sin(angle * Math.PI / 180)
-    let points = [[30,70]] , time_step = 0.1 , g = 1 , get_score = false
-    while(now_y <= 150)
+    let points = [[30,70]] , time_step = 0.1 , g = 3 , get_score = false
+    while(now_y <= 120)
     {
         now_x += speed_x * time_step
         now_y += speed_y * time_step + 0.5 * g * time_step ** 2
@@ -196,12 +195,12 @@ Page({
         }
         speed_y += g*time_step
         points.push([now_x , now_y])
-        if(target_x - 4 <= now_x &&  now_x <= target_x + 6 && now_y <= target_y + 2 && now_y >= target_y - 2 )
+        if(target_x - 3 <= now_x &&  now_x <= target_x + 8 && now_y <= target_y + 3 && now_y >= target_y - 2 )
         {
             break;
         }
     }
-    points[points.length-1][1] = Math.min(150,points[points.length-1][1])
+    points[points.length-1][1] = Math.min(120,points[points.length-1][1])
     return points
 }
 })

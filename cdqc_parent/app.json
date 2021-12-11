@@ -1,7 +1,10 @@
 {
   "pages": [
-    "pages/wave/wave",
     "pages/play_ball/play_ball",
+    "pages/grid/grid",
+    
+    
+    
     "pages/play_piano/play_piano",
     "pages/index/index",
     "pages/home/home"

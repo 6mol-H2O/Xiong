@@ -1,0 +1,42 @@
+/* pages/grid/grid.wxss */
+.body{
+  display: grid;
+  place-content: top;
+  /* 每个网格的间距为 5vh */
+  grid-template-columns:110rpx repeat(8 , 80rpx);
+  grid-template-rows: 200rpx repeat(8 , 80rpx);
+
+  height: 1750rpx;
+  widows: 750rpx;
+}
+.title{
+  word-wrap: break-word;
+  text-indent : 9.4rpx; 
+  text-align:center;
+  font-size: 50rpx;
+  background-color:aqua;
+  border: 1px solid #000;
+}
+.click{
+  background-color: fff;
+  border: 1px solid #000;
+}
+.error{
+  background-color: aquamarine;
+  border: 1px solid #000;
+}
+.content {
+
+  box-shadow: 0 0 1px #f6f;
+
+  display: grid;
+
+  grid-template-columns: 100px 100px 100px;
+
+  grid-template-rows: 100px 100px 100px;
+
+  grid-template-areas: 'a b c' 'd e f' 'g h i';
+
+  grid-auto-flow: column;
+
+}

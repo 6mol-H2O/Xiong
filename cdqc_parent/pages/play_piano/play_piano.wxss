@@ -46,7 +46,7 @@ view#address {
 	background-image:url("../image/key_back_black.png");
 }
 page{
-	background-image:url("http://m.qpic.cn/psc?/V54DWESa0sRAoU0aTodf0ZH2Ht0OfYHO/45NBuzDIW489QBoVep5mcap63sfhs1X3.IW1pZxEOmhnXst4Pe6vSnTqkEvUX84Po5ZFOFiOpdzvvlgZIiJonrQ*nMQ6xECYJniAlGEoUc0!/b&bo=OATABgAAAAABF8o!&rf=viewer_4");
+	background-image:url("http://m.qpic.cn/psc?/V54DWESa0sRAoU0aTodf0ZH2Ht0OfYHO/45NBuzDIW489QBoVep5mcbF7vSbOzaLCvVDo2CGZO245suxIKLrNpePT0Oz2qVLUCJCvcbRK7MJ66KNMm5sHkFt1FYlYokgN47afrLcLcz0!/b&bo=OATABgAAAAABF8o!&rf=viewer_4");
 	background-size:100% 120%;
   background-position: 100% 70%;
 }

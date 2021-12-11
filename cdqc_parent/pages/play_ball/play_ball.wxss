@@ -10,8 +10,8 @@
    }
 .circle {
   position: absolute;
-  left : 80%;
-  top : 15%;
+  left : 65%;
+  top : 32%;
 	width: 100rpx;
 	height: 80rpx;
 	border-radius: 100rpx;
@@ -34,4 +34,8 @@
   left : 40%;
   background-color: aqua;
 }
-
+page{
+	background-image:url("http://m.qpic.cn/psc?/V54DWESa0sRAoU0aTodf0ZH2Ht0OfYHO/45NBuzDIW489QBoVep5mcT7RW6m1.a6M7hQskW3rDJDDAj2Ir4CcGgEujiz7SpZxIRwTV7LwRVTK0Tr563g6qkMn7t7wl7PtvVCI8uHNRQ0!/b&bo=OARABgAAAAABF0o!&rf=viewer_4");
+	background-size:100% 155%;
+  background-position: 100% ;
+}
