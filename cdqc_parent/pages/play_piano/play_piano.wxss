@@ -1,0 +1,53 @@
+/* pages/play_piano/play_piano.wxss */
+view#main {
+	width:750rpx;
+	height:800rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+view#comment {
+	font-size:12px;
+	line-height:18px;
+	padding-left:20px;
+}
+view#address {
+	color:#690;
+	font-size:12px;
+	padding-top:10px;
+	padding-left:20px;
+}
+.key {
+  position: absolute;
+  top : 600rpx;
+	float:left;
+	text-align: center;
+	font-size:22rpx;
+	background-position: bottom left;
+	background-repeat: repeat-x;
+}
+.whiteKey {
+  display: none;
+	width:80rpx;
+	height:360rpx;
+	color:#666;
+	background-color:#eee;
+	border: 2px solid #999;
+	background-image:url("../image/key_back_white.png");
+}
+.blackKey {
+  display: none;
+	width:50rpx;
+	height:200rpx;
+	color:#ccc;
+	background-color:#666;
+	border: 2px solid #666;
+	background-image:url("../image/key_back_black.png");
+}
+page{
+	background-image:url("http://m.qpic.cn/psc?/V54DWESa0sRAoU0aTodf0ZH2Ht0OfYHO/45NBuzDIW489QBoVep5mcap63sfhs1X3.IW1pZxEOmhnXst4Pe6vSnTqkEvUX84Po5ZFOFiOpdzvvlgZIiJonrQ*nMQ6xECYJniAlGEoUc0!/b&bo=OATABgAAAAABF8o!&rf=viewer_4");
+	background-size:100% 120%;
+  background-position: 100% 70%;
+}
+

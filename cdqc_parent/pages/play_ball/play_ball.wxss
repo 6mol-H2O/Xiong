@@ -1,0 +1,37 @@
+/* pages/play_ball/play_ball.wxss */
+.ball {
+  position:absolute;
+  top : 70%;
+  left : 30%;
+	width: 60rpx;
+	height: 60rpx;
+  border-radius: 60rpx;
+	background-color: #ad5806;
+   }
+.circle {
+  position: absolute;
+  left : 80%;
+  top : 15%;
+	width: 100rpx;
+	height: 80rpx;
+	border-radius: 100rpx;
+  border: 2px solid;
+}
+.to_top {
+  position: absolute;
+  top : 105%;
+  left : 39%;
+  margin-bottom: 5%;
+  border-top: 28rpx solid #f0f;
+  border-left: 28rpx solid transparent;
+  border-right: 28rpx solid transparent;
+}
+.bar{
+  width: 48rpx;
+  height: 50%;
+  position: fixed;
+  top : 55%;
+  left : 40%;
+  background-color: aqua;
+}
+

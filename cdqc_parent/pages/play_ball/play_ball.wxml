@@ -1,0 +1,9 @@
+<!--pages/play_ball/play_ball.wxml-->
+<view style="width : 750rpx; height:1500rpx;" bindtap="{{tap}}">
+  <view wx:if="{{show}}" animation="{{animation}}" style="position: absolute; width: 30%; height: 15%; display: block; box-sizing: border-box; left: 18.5%; top: 65%" >
+    <view class='bar' ></view>
+  <view class='to_top'></view>
+  </view>
+  <view class="ball" style ="{{move}}"></view>
+  <view class="circle" ></view>
+</view>

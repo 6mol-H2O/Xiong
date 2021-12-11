@@ -1,0 +1,16 @@
+<!--pages/play_piano/play_piano.wxml-->
+
+<view id='main'>
+        <view class="key whiteKey" style= "{{styles[0]}}" bindtap="{{action}}" data-id= "0">1</view>
+        <view  class="key whiteKey"  style= "{{styles[2]}}" data-id = "2" bindtap="{{action}}">3</view>
+        <view  class="key whiteKey"  style="{{styles[4]}}" data-id = "4" bindtap="{{action}}">5</view>
+        <view  class="key whiteKey"  style="{{styles[5]}}" data-id = "5" bindtap="{{action}}">6</view>
+        <view  class="key whiteKey"  style="{{styles[7]}}" data-id = "7"  bindtap="{{action}}">8</view>
+        <view  class="key whiteKey"  style="{{styles[9]}}" data-id =" 9"  bindtap="{{action}}">10</view>
+        <view  class="key whiteKey"  style="{{styles[11]}}" data-id = "11" bindtap="{{action}}">12</view>
+        <view  class="key blackKey"  style="{{styles[1]}}" data-id = "1" bindtap="{{action}}">2</view>
+        <view  class="key blackKey"  style="{{styles[3]}}" data-id = "3" bindtap="{{action}}">4</view>
+        <view  class="key blackKey"  style="{{styles[6]}}" data-id = "6" bindtap="{{action}}">7</view>
+        <view  class="key blackKey"  style="{{styles[8]}}" data-id = "8" bindtap="{{action}}">9</view>
+        <view  class="key blackKey"  style="{{styles[10]}}" data-id = "10" bindtap="{{action}}">11</view>
+    </view>

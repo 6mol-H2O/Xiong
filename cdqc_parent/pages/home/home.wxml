@@ -1,0 +1,7 @@
+<!--pages/home/home.wxml-->
+<view class="container" bindtap="click">
+  <image src='{{list.picurl}}'></image>
+  <view class='content'>
+    <text>{{list.text}}</text>
+  </view>
+</view>

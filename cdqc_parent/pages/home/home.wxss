@@ -1,0 +1,17 @@
+/* pages/home/home.wxss */
+.container{
+  width: 100%;
+  height: 600rpx;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+image{
+  position: absolute;
+  width: 100%;
+  height: 600rpx;
+}
+.content{
+  position: absolute;
+  z-index: 1;
+}
